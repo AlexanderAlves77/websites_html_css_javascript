@@ -101,3 +101,45 @@ header {
 .btn:hover {
   background: #8fc53d;
 }
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.title-price h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.box span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 12px;
+  color: var(--main-color);
+}
+
+.stars .bx {
+  color: var(--main-color);
+}
+
+.box .box-img img {
+  width: 30rem;
+  height: 50vh;
+}
+
+.box .bx-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 7px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 4px 0 4px 0;
+  background: var(--main-color);
+}
+
+.box .bx-cart:hover {
+  background: #8fc53d;
+}
