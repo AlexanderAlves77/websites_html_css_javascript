@@ -16,6 +16,10 @@
   --main-color: #83b735;
 }
 
+section {
+  padding: 50px 10%;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -59,4 +63,41 @@ header {
   font-size: 2rem;
   cursor: pointer;
   display: none;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.home-text h1 {
+  font-size: 2.7rem;
+}
+
+.home-text p {
+  font-size: 0.938rem;
+  margin: 0.4rem 0 1.8rem;
+}
+
+.home-text span {
+  color: var(--main-color);
+}
+
+.btn {
+  padding: 10px 14px;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 0.3rem;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #8fc53d;
 }
