@@ -143,3 +143,11 @@ header {
 .box .bx-cart:hover {
   background: #8fc53d;
 }
+
+.new-container .box {
+  border-radius: 4px;
+} 
+
+.new-container .box .box-img {
+  border-radius: 4px;
+}
