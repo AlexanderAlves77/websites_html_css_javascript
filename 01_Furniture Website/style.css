@@ -228,3 +228,8 @@ header {
   width: 100px;
   filter: grayscale(1);
 }
+
+.brands-container img:hover {
+  width: 100px;
+  filter: grayscale(0);
+}
