@@ -190,3 +190,41 @@ header {
 .new-container .box .box-img {
   border-radius: 4px;
 }
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.about-img img {
+  width: 80%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.about-text span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.about-text p {
+  font-size: 0.938rem;
+  margin: 0.5rem 1.4rem;
+}
+
+.brands-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.brands-container img {
+  width: 100px;
+  filter: grayscale(1);
+}
